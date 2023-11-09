@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome to MyBank</title>
+</head>
+<body> 
+    <!--logo section-->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="banklogo.png" alt="MyBank Logo">
+            </div>
+            <input type="checkbox" class="menu-checkbox" id="menu-toggle">
+            <label class="menu-button" for="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+            <!--Nav bar-->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--home page-->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to MyBank</h1>
+            <p>Your Trusted Partner in Banking</p>
+            <a href="./signup.html" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    <!--features section-->
+    <section id="features" class="features">
+        <div>
+        <div class="feature">
+            <h2>Secure Transactions</h2>
+            <p>Your transactions are encrypted and secure.</p>
+        </div>
+        <div class="feature">
+            <h2>24/7 Customer Support</h2>
+            <p>Our support team is available around the clock.</p>
+        </div>
+        <div class="feature">
+            <h2>Mobile Banking</h2>
+            <p>Access your account anytime, anywhere using our mobile app.</p>
+        </div>
+    </div>
+        <div>
+        <div class="feature">
+            <h2>Online Bill Pay</h2>
+            <p>Quickly and securely pay your bills online.</p>
+        </div>
+        <div class="feature">
+            <h2>Personalized Alerts</h2>
+            <p>Receive notifications about your account activities.</p>
+        </div>
+        <div class="feature">
+            <h2>Investment Management</h2>
+            <p>Manage your investments and track their performance.</p>
+        </div>
+    </div>
+    </section>
+    <!--about us section-->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are a leading bank with a commitment to providing secure and convenient banking services to our customers.
+               With a history of excellence spanning over two decades, we have established a strong presence in the banking industry.
+               Our mission is to empower individuals and businesses with reliable financial solutions that help them thrive.
+               At MyBank, we pride ourselves on our customer-centric approach, ensuring that each interaction with our bank is meaningful and valuable.
+               Our dedicated team of professionals is passionate about delivering exceptional customer service and innovative banking solutions.</p>
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Feel free to get in touch with our support team.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 MyBank. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
